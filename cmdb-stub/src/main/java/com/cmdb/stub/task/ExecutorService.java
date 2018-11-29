@@ -6,6 +6,6 @@ import org.springframework.web.bind.annotation.RequestMethod;
 
 @FeignClient(name="cmdb-task")
 public interface ExecutorService {
-	@RequestMapping(value="selectById",method=RequestMethod.GET)
+	@RequestMapping(value="selectById",method=RequestMethod.POST)
 	String selectById(String id);
 }

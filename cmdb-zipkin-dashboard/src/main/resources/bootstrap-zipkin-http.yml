@@ -1,0 +1,5 @@
+server:
+  port: 17601
+spring:
+  application:
+    name: cmdb-zipkin-dashboard
