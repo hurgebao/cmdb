@@ -9,8 +9,8 @@
 		<artifactId>cmdb</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-	<artifactId>cmdb-task</artifactId>
-	<name>cmdb-task</name>
+	<artifactId>cmdb-zipkin-dashboard</artifactId>
+	<name>cmdb-zipkin-dashboard</name>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	</properties>
@@ -23,6 +23,20 @@
 			<groupId>com.sinossc</groupId>
 			<artifactId>cmdb-stub</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-zipkin</artifactId>
+		</dependency>
+		<!-- zipkin 界面 -->
+		<dependency>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-autoconfigure-ui</artifactId>
+		</dependency>
+		<!-- zipkin 服务类 -->
+		<dependency>
+			<groupId>io.zipkin.java</groupId>
+			<artifactId>zipkin-server</artifactId>
 		</dependency>
 	</dependencies>
 </project>

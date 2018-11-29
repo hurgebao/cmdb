@@ -1,0 +1,6 @@
+spring:
+  zipkin:
+    enabled: false
+  cloud:
+    zookeeper:
+      connect-string: localhost:2181    
