@@ -8,6 +8,8 @@ spring:
     registry: 
       address: zookeeper://127.0.0.1:2181
     scan: com.cmdb
+    monitor:
+      protocal: registry
   zipkin:
     enabled: true
      # zipkkin dashboard的地址：通过真实IP地址访问

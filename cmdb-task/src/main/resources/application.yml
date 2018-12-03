@@ -13,6 +13,8 @@ spring:
       port: 20880
     scan:
       com.cmdb.service
+    monitor:
+      protocal: registry
   zipkin:
     enabled: true
      # zipkkin dashboard的地址：通过真实IP地址访问
