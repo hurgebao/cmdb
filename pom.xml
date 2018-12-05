@@ -12,6 +12,7 @@
 		<module>cmdb-task</module>
 		<module>cmdb-stub</module>
 		<module>cmdb-web</module>
+		<module>cmdb-dao</module>
 		<module>cmdb-zipkin-dashboard</module>
 	</modules>
 	<properties>
