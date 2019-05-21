@@ -22,5 +22,10 @@
   		<artifactId>cmdb-stub</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
+  	<dependency>
+	    <groupId>com.baidu.disconf</groupId>
+	    <artifactId>disconf-client</artifactId>
+	    <version>2.6.36</version>
+	</dependency>
   </dependencies>
 </project>
