@@ -1,7 +1,10 @@
 spring:
   zipkin:
     enabled: false
-    
+  sleuth:
+    http:
+      legacy:
+        enabled: true
     
 eureka:
   client:

@@ -30,17 +30,19 @@
 		</dependency>
 		<dependency>
   			<groupId>org.springframework.cloud</groupId>
-  			<artifactId>spring-cloud-starter-eureka</artifactId>
+  			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
   		</dependency>
-		<!-- zipkin 界面 -->
-		<dependency>
-			<groupId>io.zipkin.java</groupId>
-			<artifactId>zipkin-autoconfigure-ui</artifactId>
+  		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
 		</dependency>
-		<!-- zipkin 服务类 -->
 		<dependency>
-			<groupId>io.zipkin.java</groupId>
-			<artifactId>zipkin-server</artifactId>
-		</dependency>
+  			<groupId>org.springframework.boot</groupId>
+  			<artifactId>spring-boot-starter-actuator</artifactId>
+  		</dependency>
+	<dependency>
+		<groupId>de.codecentric</groupId>
+		<artifactId>spring-boot-admin-starter-client</artifactId>
+	</dependency>  		
 	</dependencies>
 </project>
