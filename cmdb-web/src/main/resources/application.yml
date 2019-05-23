@@ -29,5 +29,5 @@ eureka:
       defaultZone: http://eureka1:8761/eureka,http://eureka1:8762/eureka,http://eureka1:8763/eureka
   instance:
     prefer-ip-address: true
-   # instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
+    #instance-id: ${spring.application.name}:${spring.cloud.client.ipAddress}:${spring.application.instance_id:${server.port}}
     lease-renewal-interval-in-seconds: 5
