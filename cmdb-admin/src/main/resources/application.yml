@@ -14,7 +14,7 @@ eureka:
   client:
     registry-fetch-interval-seconds: 5
     serviceUrl:
-      defaultZone: http://eureka1:8761/eureka,http://eureka1:8762/eureka,http://eureka1:8763/eureka
+      defaultZone: http://eureka1:8761/eureka,http://eureka2:8762/eureka,http://eureka3:8763/eureka
 management:
   endpoints:
     web:
