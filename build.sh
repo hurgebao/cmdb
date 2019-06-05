@@ -1,14 +1,14 @@
 cd cmdb-stub
 mvn clean deploy
 
-cd cmdb-eureka
+cd ../cmdb-eureka
 mvn package docker:build
 
-cd cmdb-zipkin-dashboard
+cd ../cmdb-zipkin-dashboard
 mvn package docker:build
 
-cd cmdb-task
+cd ../cmdb-task
 mvn package docker:build
 
-cd cmdb-web
+cd ../cmdb-web
 mvn package docker:build
