@@ -14,6 +14,7 @@
 		<module>cmdb-eureka</module>
 		<module>cmdb-stub</module>
 		<module>cmdb-web</module>
+		<module>cmdb-gateway</module>
 		<module>cmdb-zipkin-dashboard</module>
 	</modules>
 	<properties>
