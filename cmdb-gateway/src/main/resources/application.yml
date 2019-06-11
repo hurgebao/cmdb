@@ -12,6 +12,12 @@ spring:
           enabled: true
           lower-case-service-id: true
   
+jwt: 
+  tokenHeader: token
+  tokenHead: Bearer
+  secret: 12aosjoaquwe12jklad
+  expiration: 604800
+  
   
 logging:
   level:
