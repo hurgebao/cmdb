@@ -35,5 +35,7 @@ http://eureka3:8763/
 zipkin-dashboard访问地址
 http://zipkin-server:17601/
 
+gateway访问地址
+http://172.16.4.13:8080/swagger-ui.html
 
 firewall-cmd --zone=public --add-port=8762/tcp --permanent
